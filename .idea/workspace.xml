@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81c2e45c-68dc-4309-bf59-ebe676ef57a0" name="Default Changelist" comment="Controller run">
-      <change afterPath="$PROJECT_DIR$/src/main/java/helloworldmvc/HelloWorldMVC.java" afterDir="false" />
+    <list default="true" id="81c2e45c-68dc-4309-bf59-ebe676ef57a0" name="Default Changelist" comment="Modif gradle et probleme chemin d'accès fichier">
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/helloworldmvc/model/message.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,30 +16,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/controller/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/build/classes/java/main/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helloworldmvc/HelloWorldMVC.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helloworldmvc/HelloWorldMVC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/ProjetMVC-0.0.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/ProjetMVC-0.0.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/ProjetMVC-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/ProjetMVC-0.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/javadoc/javadoc.options" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/javadoc/javadoc.options" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/build/classes/java/main/helloworld/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/build/libs/controller-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/controller/build/libs/controller-0.0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/controller/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/helloworld/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/model/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/build/classes/java/main/model/IModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/build/classes/java/main/model/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/build/libs/model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/model/build/libs/model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/build/resources/main/model/message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/main/java/helloworld/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/helloworldmvc/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/build/classes/java/main/helloworldmvc/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/build/classes/java/main/helloworldmvc/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/build/libs/model-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/model/build/libs/model-0.0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/model/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/helloworldmvc/model/IModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/helloworldmvc/model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/resources/model/message.txt" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/helloworldmvc/model/message.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/view/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/build/classes/java/main/view/IView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/build/classes/java/main/view/View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/build/libs/view-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/view/build/libs/view-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/helloworldmvc/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/helloworldmvc/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helloworldmvc/HelloWorldMVC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helloworldmvc/HelloWorldMVC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/build/classes/java/main/helloworld/view/IView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/build/classes/java/main/helloworld/view/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/build/libs/view-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/view/build/libs/view-0.0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/view/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/src/main/java/view/IView.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/main/java/helloworld/view/IView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/src/main/java/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/main/java/helloworld/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/main/java/helloworld/view/IView.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/main/java/helloworldmvc/view/IView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/main/java/helloworld/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/main/java/helloworldmvc/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614781923153</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modif gradle et probleme chemin d'accès fichier">
+      <created>1614783924178</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614783924178</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +234,7 @@
     <MESSAGE value="Model getMessage" />
     <MESSAGE value="modif build et View display" />
     <MESSAGE value="Controller run" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller run" />
+    <MESSAGE value="Modif gradle et probleme chemin d'accès fichier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modif gradle et probleme chemin d'accès fichier" />
   </component>
 </project>

@@ -1,2 +1,2 @@
-helloworld/controller/Controller.java
- helloworld.controller.Controller
+helloworldmvc/controller/Controller.java
+ helloworldmvc.controller.Controller

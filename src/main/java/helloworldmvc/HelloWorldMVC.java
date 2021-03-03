@@ -1,8 +1,8 @@
 package helloworldmvc;
 
-import helloworld.controller.Controller;
+import helloworldmvc.controller.Controller;
 import helloworldmvc.model.Model;
-import helloworld.view.View;
+import helloworldmvc.view.View;
 
 import java.io.IOException;
 

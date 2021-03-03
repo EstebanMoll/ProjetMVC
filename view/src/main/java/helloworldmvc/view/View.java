@@ -1,4 +1,4 @@
-package helloworld.view;
+package helloworldmvc.view;
 
 public class View implements IView{
     @Override

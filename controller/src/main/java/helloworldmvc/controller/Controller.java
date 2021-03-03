@@ -1,7 +1,7 @@
-package helloworld.controller;
+package helloworldmvc.controller;
 
 import helloworldmvc.model.IModel;
-import helloworld.view.IView;
+import helloworldmvc.view.IView;
 
 import java.io.IOException;
 
@@ -11,6 +11,10 @@ public class Controller {
 
     public Controller(IModel m, IView v)
     {
+        if(m == null)
+            throw new NullPointerException();
+        if(v == null)
+            throw new NullPointerException();
         this.model = m;
         this.view = v;
     }
