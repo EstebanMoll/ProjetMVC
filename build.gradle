@@ -18,15 +18,15 @@ test {
 }
 
 allprojects{
-    group = 'ProjetMVC'
+    group = 'helloworldmvc'
     version='0.0.1'
 }
 task sourcesJar(type: Jar, dependsOn: classes) {
-    classifier = 'sources'
+    archiveClassifier.set("sources")
     from sourceSets.main.allSource
 }
 task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
+    archiveClassifier.set("javadoc")
     from javadoc.destinationDir
 }
 artifacts {
@@ -37,6 +37,6 @@ artifacts {
 manifest {
 attributes('Implementation-Title': project.name,
  'Implementation-Version': project.version,
- 'Main-Class': 'projetmvc.ProjetMVC')
+ 'Main-Class': 'helloworldmvc.HelloWorldMVC')
 }
 }*/

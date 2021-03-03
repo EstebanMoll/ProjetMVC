@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+group='helloworldmvc.model'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -16,5 +16,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
-group='ProjetMVC.model'

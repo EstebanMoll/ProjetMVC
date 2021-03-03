@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81c2e45c-68dc-4309-bf59-ebe676ef57a0" name="Default Changelist" comment="Configuration gradle">
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/model/IModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/resources/model/message.txt" afterDir="false" />
+    <list default="true" id="81c2e45c-68dc-4309-bf59-ebe676ef57a0" name="Default Changelist" comment="Model getMessage">
+      <change afterPath="$PROJECT_DIR$/view/src/main/java/view/IView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/src/main/java/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/controller/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/model/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/view/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614779723580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Model getMessage">
+      <created>1614780635537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614780635537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,14 +114,15 @@
     <MESSAGE value="Premier commit" />
     <MESSAGE value="Création du projet model" />
     <MESSAGE value="Configuration gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration gradle" />
+    <MESSAGE value="Model getMessage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Model getMessage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/model/src/main/java/model/Model.java</url>
-          <line>9</line>
+          <line>8</line>
           <properties class="model.Model" method="getMessage">
             <option name="EMULATED" value="true" />
           </properties>
