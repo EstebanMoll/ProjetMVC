@@ -9,5 +9,5 @@ repositories {
 }
 
 dependencies {
-
+    testCompile 'org.testng:testng:+'
 }
