@@ -3,7 +3,6 @@ plugins {
 }
 
 group='helloworldmvc.model'
-version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -11,8 +10,4 @@ repositories {
 
 dependencies {
 
-}
-
-test {
-    useJUnitPlatform()
 }

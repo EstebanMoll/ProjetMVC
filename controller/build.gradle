@@ -3,7 +3,6 @@ plugins {
 }
 
 group='helloworldmvc.controller'
-version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -12,9 +11,5 @@ repositories {
 dependencies {
     compile project(':model')
     compile project(':view')
-}
-
-test {
-    useJUnitPlatform()
 }
 

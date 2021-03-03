@@ -1,4 +1,4 @@
-view/View.java
- view.View
-view/IView.java
- view.IView
+helloworld/view/View.java
+ helloworld.view.View
+helloworld/view/IView.java
+ helloworld.view.IView

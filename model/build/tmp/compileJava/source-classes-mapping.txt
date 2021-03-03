@@ -1,4 +1,4 @@
-model/Model.java
- model.Model
-model/IModel.java
- model.IModel
+helloworldmvc/model/Model.java
+ helloworldmvc.model.Model
+helloworldmvc/model/IModel.java
+ helloworldmvc.model.IModel

@@ -1,0 +1,7 @@
+-classpath 'C:\\Users\\magic\\Desktop\\CNAM\\S2\\Algo\\ProjetMVC\\build\\classes\\java\\main;C:\\Users\\magic\\Desktop\\CNAM\\S2\\Algo\\ProjetMVC\\build\\resources\\main;C:\\Users\\magic\\Desktop\\CNAM\\S2\\Algo\\ProjetMVC\\controller\\build\\libs\\controller-1.0-SNAPSHOT.jar;C:\\Users\\magic\\Desktop\\CNAM\\S2\\Algo\\ProjetMVC\\model\\build\\libs\\model-1.0-SNAPSHOT.jar;C:\\Users\\magic\\Desktop\\CNAM\\S2\\Algo\\ProjetMVC\\view\\build\\libs\\view-1.0-SNAPSHOT.jar'
+-d 'C:\\Users\\magic\\Desktop\\CNAM\\S2\\Algo\\ProjetMVC\\build\\docs\\javadoc'
+-doctitle 'ProjetMVC 0.0.1 API'
+-notimestamp 
+-quiet 
+-windowtitle 'ProjetMVC 0.0.1 API'
+'C:\\Users\\magic\\Desktop\\CNAM\\S2\\Algo\\ProjetMVC\\src\\main\\java\\helloworldmvc\\HelloWorldMVC.java'

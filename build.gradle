@@ -10,12 +10,9 @@ dependencies {
     compile project(':controller')
 }
 
-test {
-    useJUnitPlatform()
-}
+group = 'helloworldmvc'
 
 allprojects{
-    group = 'helloworldmvc'
     version='0.0.1'
 }
 task sourcesJar(type: Jar, dependsOn: classes) {
