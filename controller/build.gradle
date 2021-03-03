@@ -10,11 +10,12 @@ repositories {
 }
 
 dependencies {
-
+    compile project(':model')
+    compile project(':view')
 }
 
 test {
     useJUnitPlatform()
 }
 
-group='ProjetMVC.model'
+group='ProjetMVC.controller'

@@ -17,4 +17,4 @@ test {
     useJUnitPlatform()
 }
 
-group='ProjetMVC.model'
+group='ProjetMVC.view'
